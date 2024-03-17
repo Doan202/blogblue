@@ -21,14 +21,15 @@ header .header-top {
 header .header-top .header-logo img {
   width: 100%;
 }
-header .header-top .header-menu {
-  color: #fff;
-}
 header .header-top .header-menu ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
+}
+header .header-top .header-menu ul a {
+  color: #fff;
+  text-decoration: none;
 }
 header .header-top .header-menu ul li {
   text-transform: uppercase;
